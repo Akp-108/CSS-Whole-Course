@@ -1,0 +1,38 @@
+.item{
+    color: red;
+}
+
+/* @media(max-width:500px){
+    .item{
+        color: blue;
+    }
+}
+@media (max-width: 800px){
+    .item{
+        color: yellow;
+    }
+} */
+@media(max-width:500px) and (min-width:300px){
+    .item{
+        color: blue;
+    }
+}
+/* .item{
+    color: brown;
+} */
+
+/* @media all and (orientation: landscape){
+    .item{
+        color: blue
+    }
+} */
+/* @media all and (orientation: portrait){
+    .item{
+        color: black
+    }
+} */
+
+/* 
+    landscape: width> height of the device(horizontal)
+    portreaits: height > widht (vartiacl)
+*/

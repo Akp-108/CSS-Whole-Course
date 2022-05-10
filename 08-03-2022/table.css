@@ -1,0 +1,15 @@
+table{
+    border: 1px solid white;
+    border-collapse: collapse;
+    width: 90vw;
+    height: 70vh;
+    background-color: orange;
+}
+th,td{
+    border: 1px solid white;
+    /* width: 200px; */
+    text-align: right   ;
+    vertical-align: bottom;
+    vertical-align: text-top;
+    padding: 20px;
+}

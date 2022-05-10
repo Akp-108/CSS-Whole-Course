@@ -1,0 +1,28 @@
+.flex-container{
+    background-color: dodgerblue;
+    padding: 1rem;
+    height: 60vh;
+    display: flex;
+    /* display: inline-flex; */
+    /* justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: safe;
+   justify-content: space-around; */
+    /* justify-content: space-between;  */
+     /* justify-content: stretch; */
+    /* justify-content: unsafe; */
+    /* justify-content: space-evenly; */
+    flex-flow: row wrap;
+    /* justify-content: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: flex-start; */
+    justify-content: center;
+    align-items: center;
+}
+.flex-item{
+    background-color: yellow;
+    padding: 1rem;
+    margin: 2px;
+    border: 3px solid red;
+}

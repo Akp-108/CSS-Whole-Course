@@ -1,0 +1,27 @@
+.grid-container{
+    display: grid;
+    background-color: blue;
+    margin: 10px;
+    grid-gap: 1px;
+    grid-template-columns: auto auto auto ;
+    height: 300px;
+    text-align: center;
+    font-weight: bolder;
+}
+.grid-item{
+    background-color: violet;
+    /* padding: 1rem; */
+    margin: 10px;
+}
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.item2{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.item5{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}

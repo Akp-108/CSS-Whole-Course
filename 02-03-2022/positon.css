@@ -1,0 +1,25 @@
+.flex-container{
+    background-color: dodgerblue;
+    padding: 1rem;
+    display: flex;
+    display: inline-flex;
+    /* flex-direction: row; */
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    /* Flex-warp:warp nowarp */
+        flex-direction: row;
+        flex-wrap: nowrap;
+        flex-wrap: wrap;
+        /* flex-flow: flex-direction flex-warp */
+        flex-flow: row wrap;
+        /* flex-flow: column wrap; */
+        /* flex-flow: row-reverse wrap; */
+ /* justify */
+
+}
+.flex-item{
+    background-color: yellow;
+    padding: 1rem;
+    margin: 2px;
+}

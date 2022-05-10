@@ -1,0 +1,13 @@
+img{
+    /* width: 600px; */
+    /* width: 50vw;*/
+    width: min(400px, 30vw);
+    /* width: max(400px, 70vw); */
+
+}
+
+
+
+/* 
+
+*/

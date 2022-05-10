@@ -1,0 +1,33 @@
+.block{
+    width: 200px;
+    background-color:yellow;
+    height: 30px;
+    display: block;
+    /* padding: 1rem; */
+    margin: 10px;
+}
+.inline{
+    width: 200px;
+    height: 30px;
+    background-color:blue;
+    display: inline;
+    /* padding: 1rem; */
+    margin: 30px;
+}
+section{
+    background-color: red;
+}
+
+/* 
+-->> Widht and height properties can not be applied for inline elements
+
+
+-->>padding-
+        block level takes care of other elements 
+        in all four directions
+        but Inline elements does't take care of Vartical element
+    margin--    
+        Block level as expecped 
+        inline-- vartical margin camt't be applied
+
+*/

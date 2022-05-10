@@ -1,0 +1,14 @@
+.item{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    /* background-color: blue; */
+    background: linear-gradient(
+        315deg,  
+        green,
+        aqua,
+        blue,
+        yellow,
+        orange    
+    );
+}

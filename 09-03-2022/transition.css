@@ -1,0 +1,33 @@
+.item{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    /* transition-property: all; */
+    /* transition-property: width; */
+    /* transition-property: height; */
+    /* transition-property: height,width,background-color,border-radious; */
+    /* transition-property: all;
+    transition-duration: 4s;
+    transition-delay: 2s; */
+    /* transition-timing-function: linear; */
+    transition-timing-function: ease;
+    /* transition-timing-function: cubic-bezier(1,-0.4, 1, 1); */
+    /* transition: all 4s linear 0s; */
+    /* transition: height 4s linear , width 4s  linear, background-color 4s, border-radious 4s ; */
+    transition: height 4s ;
+} 
+.item:hover{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    border-radius: 50%;
+}
+/* 
+        selectors:hover{}
+
+        transition propertiy--all
+        transition duration--0s
+        transition dealy--0s
+        transition timing--- leaner
+        transiton:property duration function dealy
+*/

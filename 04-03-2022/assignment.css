@@ -1,0 +1,9 @@
+.grid-item{
+    display: flex;
+    flex-flow: column wrap;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+}

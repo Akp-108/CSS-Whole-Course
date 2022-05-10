@@ -1,0 +1,18 @@
+/* .a{
+    
+        background-color: dodgerblue;
+        padding: 1rem;
+        display: flex;
+        display: inline-flex; */
+/* } */
+/* .c{
+    justify-content: flex-end;
+    align-items: ;
+} */
+nav{
+    background-color: gray;
+    padding: 1rem;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+}

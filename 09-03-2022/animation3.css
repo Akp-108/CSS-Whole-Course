@@ -1,0 +1,19 @@
+span{
+    animation-name: atul;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes atul{
+    0%{
+        transform:rotate(0deg);
+    }
+    25%{
+        transform:rotate(90deg);
+    }
+    50%{
+        transform:rotate(180deg);
+    }
+    0%{
+        transform:rotate(0deg);
+    }
+}

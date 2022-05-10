@@ -1,0 +1,11 @@
+.item{
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    padding: 50px;
+    box-sizing: border-box;
+    border-radius: 50%;
+}

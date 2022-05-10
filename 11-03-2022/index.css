@@ -1,0 +1,71 @@
+/* p:nth-child(1){
+    background-color: blue;
+} */
+/* .two{
+    background-color: yellow;
+    padding: 2rem;
+    } */
+    /* .three{
+        background-color: orange;
+    } */
+    /* p:nth-child(2){
+        background-color:blue
+    } */
+/* p:nth-of-type(2){
+    background-color: green; 
+} */
+/* p:nth-last-child(6){
+    background-color: aqua;
+} */
+/* P:nth-last-child(2){
+    background-color: blue;
+}
+b:nth-last-child(7){
+    background-color: green;
+} */
+
+
+/* table{
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 90vw;
+    height: 50vh;
+}
+td,th{
+    border: 1px solid;
+}
+tr:nth-last-child(2n+1){
+    background-color: orange;
+}
+tr:nth-last-child(2n){
+    background-color: green;
+}
+th{
+    background-color: aqua;
+} */
+
+/* input:checked{
+    border: 2px solid green;
+    width: 100px;
+    height: 100px;
+}
+input{
+    border: 2px solid orange;
+    width: 100px;
+    height: 100px;
+} */
+input:checked{
+    animation: atul 2s;
+}
+@keyframes atul{
+    from{
+        width: 20px;
+        height: 20px;
+        background-color: red;
+    }
+    to{
+        background-color: yellow;
+        width: 100px;
+        height: 100px;
+    }
+}

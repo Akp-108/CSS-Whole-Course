@@ -1,0 +1,29 @@
+.item{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    animation-name: atul;
+    animation-duration: 4s;
+}
+@keyframes atul{
+    0%{
+        transform: translateX(0px);
+        
+    }
+    25%{
+        transform: translateX(200px);
+
+    }
+    50%{
+        transform: translate(200px, 200px);
+
+    }
+    75%{
+        transform: translateY(200px);
+
+    }
+    100%{
+        transform: translateY(00px);
+
+    }
+}

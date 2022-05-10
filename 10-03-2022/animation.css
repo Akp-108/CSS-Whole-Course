@@ -1,0 +1,51 @@
+.item{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 15px black;
+    background-color: blue;
+    animation-duration: 1s;
+    position: absolute;
+    animation-iteration-count: 2;
+    /* animation-name: atul; */
+    /* animation-direction: linear; */
+    /* animation-direction: reverse; */
+    /* animation-direction: alternate; */
+    /* animation-direction: alternate-reverse; */
+    /* animation-delay: 2s; */
+    animation: 4s atul 0s linear  1;
+    animation-fill-mode: forwards;
+    /* animation-fill-mode: backwards; */
+    /* animation-fill-mode: both; */
+}
+@keyframes atul{
+    0%{
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        top: 0;
+        left: 0;
+    }
+    25%{
+        top: 0px;
+        left: 200px;
+        background-color: red;
+    }
+    50%{
+        top: 200px;
+        left: 200px;
+        background-color: yellow;
+    }
+    75%{
+        top: 200px;
+        left: 0px;
+        background-color: aqua;
+    }
+    100%{
+        width: 200px;
+        height: 200px;
+        top: 0;
+        left: 0px;
+        background-color: black;
+    }
+}

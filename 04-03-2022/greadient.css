@@ -1,0 +1,84 @@
+.item{
+    width: 200px;
+    height: 200px;
+    /* background-color: red; */
+    /* background: linear-gradient(
+        green,
+        red,
+        yellow,
+        blue,
+        orange
+    ); */
+/* to bootom */
+    /* background: linear-gradient(
+        to bottom,
+        green,
+        red,
+        yellow,
+        blue,
+        orange
+    ); */
+    /* to top */
+    /* background: linear-gradient(
+        to top,
+        
+        green,
+        red,
+        yellow,
+        blue,
+        orange
+    ); */
+    /* top left */
+    /* background: linear-gradient(
+        to left,
+        
+        green,
+        red,
+        yellow,
+        blue,
+        orange
+    ); */
+    /* to right */
+    /* background: linear-gradient(
+        to right,
+        
+        green,
+        red,
+        yellow,
+        blue,
+        orange
+    ); */
+     /* background: linear-gradient(
+        to top left,
+        to top right,
+        green,
+        red,
+        yellow,
+        blue,
+        orange
+    );  */
+    /* background: linear-gradient(
+        to  right,
+            green 0% 30%,
+            red 30% 50%,
+            yellow 50% 70%,
+            blue 70% 90%,
+            orange 90% 100%
+           
+    ); */
+    /* costumization */
+    background: linear-gradient(
+        /* 135deg, */
+        /* 0deg, */
+        /* 30deg, */
+        /* 90deg, */
+        10deg,
+        green 0% 30%,
+        red 30% 50%,
+        yellow 50% 70%,
+        blue 70% 90%,
+        orange 90% 100%
+           
+           
+    );
+}

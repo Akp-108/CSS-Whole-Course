@@ -1,0 +1,9 @@
+/* body{
+    background-image: url("./atul.jpeg");
+} */
+.item{
+    background-image: url("./WhatsApp\ Image\ 2022-01-22\ at\ 8.14.49\ PM.jpeg");
+    background-repeat: no-repeat;
+    /* width: 50vw; */
+    background-size: 250px;
+}

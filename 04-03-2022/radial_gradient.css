@@ -1,0 +1,21 @@
+.item{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: radial-gradient(
+        green 0% 30%,
+        red 30% 50%,
+        orange 50% 70%,
+        blue 70% 100%
+    );
+}
+
+/* .item{
+    width: 200px;
+    height: 200px;
+    background: conic-gradient(
+        blue 45deg,
+        green 45deg 270deg,
+        red 270deg
+    );
+} */

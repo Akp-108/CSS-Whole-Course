@@ -1,0 +1,43 @@
+/* .test{
+    /* font-size: 100px; */
+    /* 1*font size of root */
+    /* font-size: 2rem; */
+    /* background-color: red; */
+    /* height: 2rem;
+    width: 4rem; */
+/* } */ 
+
+/* html{
+    font-size: 30px;
+} */
+
+.parent{
+    padding: 10px;
+    background-color: blue;
+    font-size: 30px;
+}
+.child{
+    background-color: yellow;
+    font-size: 0.5em; /*0.5*30=15px */
+    margin: 100px;
+    padding: 10px; /*10*15=150px*/
+    width: 30em;/*30*15=450*/
+    height: 20em; /*20*15=300px */
+}
+/* .child{
+    background-color: yellow;
+    color: black;
+    font-size: 0.5em;
+    padding:3em;
+    width: 10em;
+    height: 25em;
+} */
+
+/*
+em--
+    font-size---  always realted to parent's font size
+    other-- realted to current element font-size 
+rem-- always related to root font size
+%-- always related to parent's corresponding properties
+vh,vm--- always related to browser dimesion
+*/

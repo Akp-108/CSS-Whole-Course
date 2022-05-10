@@ -1,0 +1,34 @@
+/* .test{
+    background-color: blue;
+    /* height: 30px;
+    width: 500px; */
+    /* width: 50vh; */
+    /* width: 50vh;
+    height: 20px; */
+    /* width: 400px;
+    height: 20px;
+
+}
+.child{
+    background-color: yellow;
+    width: 50%;
+    height: 50%;
+}
+
+body{
+    margin: 0px;
+}
+/*  */
+/* vw-- viewport width
+vh-- viewport height */ 
+ .parent{
+     width: 50vw;
+    height: 30vh;
+    background-color: rgb(211, 146, 26);
+ }
+ .child{
+     width: 50%;
+     /* height: 20px; */
+     margin: auto;
+     background-color: blue
+ }

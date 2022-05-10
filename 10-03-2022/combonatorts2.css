@@ -1,0 +1,24 @@
+ /* div + p{
+    background-color: blue; 
+ }  */
+
+ /* div + { 
+    background-color: blue;
+}  */
+
+div ~ p{
+    background-color: blue;
+}
+
+/*
+ +---first sibling
+ item1 + item2 -- next sibling of item, which of type item2
+    <div></div>
+    <p></p>
+
+    div + p{
+    }
+
+    item ~ item2--next sibiling of which are of the type of item2
+
+*/

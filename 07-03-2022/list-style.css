@@ -1,0 +1,14 @@
+ul{
+    list-style: circle;
+    list-style: square;
+    /* list-style-position: inside ; */
+}
+.a{
+    /* list-style-position: inside; */
+    /* list-style-image: url("https://picsum.photos/10/10"); */
+    /* list-style: circle inside url("https://picsum.photos/10/10"); */
+    /* list-style: circle inside url("https://picsum.photos/20"); */
+    /* list-style-type: circle;
+    list-style-position: inside; */
+    list-style: circle inside;
+}

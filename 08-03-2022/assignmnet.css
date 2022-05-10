@@ -1,0 +1,11 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+}
+.card{
+    box-shadow: 5px 5px 5px gray;
+}
+img{
+  width: 20vw;
+}

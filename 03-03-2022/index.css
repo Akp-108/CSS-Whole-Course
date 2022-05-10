@@ -1,0 +1,8 @@
+.item{
+    height: 100px;
+    width: 100px    ;
+    background-color: blue;
+    /* position: fixed; */
+    position: sticky;
+    top: 0px;
+}

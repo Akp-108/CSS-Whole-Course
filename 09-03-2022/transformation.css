@@ -1,0 +1,39 @@
+.item{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    color: white;
+    /* display: inline-block; */
+    /* transform: translateX(100px); */
+    /* transform: translateY(100px); */
+    /* transform: translate(100px, 400px); */
+    /* transform: rotate(-20deg); */
+    /* transition: all 4s; */
+    /* transform: scaleX(2); */
+    /* transform: scaleY(2); */
+    /* transform: scale(2,3); */
+    /* transform: skewX(89.9deg); */
+    /* transform: skewY(60deg); */
+    /* transform: skew(20deg,40deg); */
+    /* transform: translate(100px) rotate(30deg); */
+    /* transform: translateX(100px); */
+    /* transform: rotate(20deg); */
+    /* transform: translateX(300px) rotate(45deg); */
+    /* transform: matrix(1.2,1,10,10,100,10); */
+    transition: transform 4s;
+    transform: rotate(30deg);
+   
+}
+
+.item:hover{
+    transform: rotate(30deg) translateX(100px);
+}
+
+/* .item:hover{
+    transform: rotate(45deg);
+} */
+
+/*
+    matrix(scaleX , scaleY, skewY, translateX,
+    translateY);
+*/

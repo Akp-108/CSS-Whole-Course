@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    }
+div{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.root{
+    background-color: red;
+    position: absolute;
+    z-index: 0;
+    top: 40px;
+    left: 80px;
+}
+.item1{
+    background-color: yellow;
+    top: 30px;
+    left: 30px;
+    z-index: -1;
+}
+.item2{
+    background-color: orange;
+    top: 50px;
+    left: 50px;
+    z-index: -2;
+}
+.item3{
+    background-color: aliceblue;
+    top: 70px;
+    left: 70px;
+    z-index: 2;
+}
+.item4{
+    background-color:blue;
+    top: 90px;
+    left: 90px;
+    z-index: 1;
+}

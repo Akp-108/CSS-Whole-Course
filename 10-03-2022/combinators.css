@@ -1,0 +1,27 @@
+div{
+    background-color: orange;
+    padding: 2rem;
+}
+section{
+    background-color: yellow;
+    padding: 1rem;
+}
+/* div p{
+    background-color: blue;
+} */
+div > p{
+    background-color: blue;
+}
+div > section{
+    background-color: red;
+}
+div > section > p{
+    background-color: aqua;
+}
+
+
+
+/* 
+    spaces targests on all the descendent
+    > targests only on just direct children
+*/

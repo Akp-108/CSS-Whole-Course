@@ -1,0 +1,58 @@
+.item{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    color: white;
+    animation-name: atul;
+    animation-duration: 8s;
+}
+
+/* @keyframes atul{
+    from{
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+        color: white;
+    }
+    to{
+        width: 400px;
+        height: 400px;
+        background-color:orange;
+        color: black;
+    }
+
+} */
+@keyframes atul{
+    0%{
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+        color: white;
+    }
+    25%{
+        width: 400px;
+        height: 400px;
+        background-color:orange;
+        color: black;
+    }
+    50%{
+        width: 100p;
+        height: 100px;
+        background-color: yellow;
+    }
+    75%{
+        width: 400px;
+        height: 400px;
+        background-color: aqua;
+    }
+    100%{
+        width: 100px;
+        height: 100px;
+        background-color: white;
+    }
+}
+
+/*
+  0s    1s  2s  3s  4s
+    from    .   .   to 
+*/

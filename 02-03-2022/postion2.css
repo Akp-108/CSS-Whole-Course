@@ -1,0 +1,46 @@
+/* .text{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    /* position: static; */
+    /* position: relative; */
+    /* top: 100px; */
+    /* left: 100px; */
+    /* right: 30px; */
+    /* bottom: 30px;
+    left: 100px; */
+
+/* } */ 
+
+.grand{
+    padding: 2rem;
+    background-color: red;
+    position: relative;
+}
+.parant{
+    padding: 2rem;
+    background-color:blue;
+    /* position: relative; */
+}
+.child{
+    padding: 2rem;
+    background-color:yellow;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+}
+
+
+/* 
+top
+bottom
+left
+right
+
+positon: static(default), relative, absolute, 
+flixed, sticky
+
+position: absolute
+        it will look first 
+
+*/
